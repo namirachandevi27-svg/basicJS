@@ -64,12 +64,20 @@
 //     console.log("C");
 // }
 
-let punyaTiket = true;
-let punyaUndangan = true;
-if (punyaTiket && punyaUndangan) {
-    console.log("Tamu VIP");
-} else if (punyaTiket || punyaUndangan) {
-    console.log("Tamu biasa");
+// let punyaTiket = true;
+// let punyaUndangan = true;
+// if (punyaTiket && punyaUndangan) {
+//     console.log("Tamu VIP");
+// } else if (punyaTiket || punyaUndangan) {
+//     console.log("Tamu biasa");
+// } else {
+//     console.log("Tidak boleh masuk");
+// } 
+
+let angka = [10,15,20,25];
+if (angka [3] % 2 == 0) { 
+    console.log("Angka [3] adalah genap.");
 } else {
-    console.log("Tidak boleh masuk");
-} 
+    console.log("Angka [3] adalah ganjil.");
+}
+
