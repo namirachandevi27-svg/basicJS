@@ -74,10 +74,16 @@
 //     console.log("Tidak boleh masuk");
 // } 
 
-let angka = [10,15,20,25];
-if (angka [3] % 2 == 0) { 
-    console.log("Angka [3] adalah genap.");
-} else {
-    console.log("Angka [3] adalah ganjil.");
-}
+// let angka = [10,15,20,25];
+// if (angka [3] % 2 == 0) { 
+//     console.log("Angka [3] adalah genap.");
+// } else {
+//     console.log("Angka [3] adalah ganjil.");
+// }
 
+let nama = ["Andi", "Budi", "Citra"];
+if (nama[2] === "Citra") {
+    console.log("Nama ditemukan");
+} else {
+    console.log("Nama tidak ditemukan");
+}
