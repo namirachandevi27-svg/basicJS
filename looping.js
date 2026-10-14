@@ -12,6 +12,13 @@
 //         console.log(i);
 // }
 
-for (let i = 1; i <= 10; i++) {
-        console.log(i + " x " + 1 + " = " + (1*i));
+// for (let i = 1; i <= 10; i++) {
+//         console.log(i + " x " + 1 + " = " + (1*i));
+// }
+
+let total = 0;
+for (let i = 1; i <= 5; i++) {
+    total = total +i;
+    console.log(`i=${i} -> total =${total}`);
 }
+// console.log(total);
