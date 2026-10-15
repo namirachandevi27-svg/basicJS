@@ -81,9 +81,9 @@
 //     console.log("Angka [3] adalah ganjil.");
 // }
 
-let nama = ["Andi", "Budi", "Citra"];
-if (nama[2] === "Citra") {
-    console.log("Nama ditemukan");
-} else {
-    console.log("Nama tidak ditemukan");
-}
+// let nama = ["Andi", "Budi", "Citra"];
+// if (nama[2] === "Citra") {
+//     console.log("Nama ditemukan");
+// } else {
+//     console.log("Nama tidak ditemukan");
+// }
