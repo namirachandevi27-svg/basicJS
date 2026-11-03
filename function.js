@@ -129,11 +129,12 @@
 
 // tampilkanUmur();
 
-let BeratBadan = 70;
+// let BeratBadan = 70;
 
-function tampilkanBeratBadan(){
-  let BeratBadan = 70;
-  console.log(BeratBadan);
+// function tampilkanBeratBadan(){
+//   let BeratBadan = 70;
+//   console.log(BeratBadan);
   
-}
-tampilkanBeratBadan();
+// }
+// tampilkanBeratBadan();
+
