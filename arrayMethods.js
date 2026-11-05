@@ -70,10 +70,58 @@
         { nama: "Dina", nilai: 75 },
         { nama: "Eka", nilai: 85 }
     ];
-     siswa.forEach((siswa) => {
-         if (siswa.nilai >= 75) {
-        console.log(siswa.nama + " - " + siswa.nilai + " - Lulus");
-        } else {
-        console.log(siswa.nama + " - " + siswa.nilai + " - Remidial");
-        }
+    //  siswa.forEach((siswa) => {
+    //      if (siswa.nilai >= 75) {
+    //     console.log(siswa.nama + " - " + siswa.nilai + " - Lulus");
+    //     } else {
+    //     console.log(siswa.nama + " - " + siswa.nilai + " - Remidial");
+    //     }
+    // });
+
+const produk = [
+    { nama: "Mouse", harga: 100000 },
+    { nama: "Keyboard", harga: 150000},
+    { nama: "Headset", harga: 200000 },
+    { nama: "Flashdisk", harga: 50000},
+    { nama: "Webcam", harga: 250000}
+];
+    const hargaPromo = produk.map((produk) => {
+        produk.harga = produk.harga * 0.9
+        return produk;
     });
+
+// console.log(hargaPromo);
+
+const calonAnggota = [
+    { nama: "Andi", nilai: 85, kehadiran: 90 },
+    { nama: "Budi", nilai: 75, kehadiran: 95 },
+    { nama: "Citra", nilai: 90, kehadiran: 85 },
+    { nama: "Dina", nilai: 80, kehadiran: 70 },
+    { nama: "Eka", nilai: 88, kehadiran: 100 },
+    { nama: "Fajar", nilai: 70, kehadiran: 75 }
+];
+//     const anggotaLulus = calonAnggota.filter((siswa) => {
+//     return siswa.nilai >= 80 && siswa.kehadiran >= 80;
+// }   );
+
+// anggotaLulus.forEach((anggota) => {
+//     console.log(anggota.nama )
+// });
+// console.log ("jumlah anggota yang lulus: " + anggotaLulus.length);
+
+const inventaris = [
+    { kode: "PC001", nama: "Komputer 1", kondisi: "Baik" },
+    { kode: "PC002", nama: "Komputer 2", kondisi: "Rusak" },
+    { kode: "PC003", nama: "Komputer 3", kondisi: "Baik" },
+    { kode: "PC004", nama: "Komputer 4", kondisi: "Perbaikan" },
+    { kode: "PC005", nama: "Komputer 5", kondisi: "Baik" }
+];
+const hasilCari = inventaris.find((barang) => {
+    return barang.kode === "PC003";
+});
+if (hasilCari) {
+    console.log("Barang ditemukan: " + hasilCari.nama   + " dan kondisi: " + hasilCari.kondisi);
+} else {
+    console.log("Barang tidak ditemukan");
+}
+
