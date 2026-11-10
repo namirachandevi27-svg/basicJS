@@ -26,7 +26,18 @@ const namanyaSiswa = "Adli";
 const kelasSiswa = "X ICT";
 const nilainyaSiswa = 85;
 
-console.log (`
-     nama: ${namanyaSiswa}
-     kelas: ${kelasSiswa}
-     nilai: ${nilainyaSiswa} `);
+// console.log (`
+//      nama: ${namanyaSiswa}
+//      kelas: ${kelasSiswa}
+//      nilai: ${nilainyaSiswa} `);
+
+const siswa = {
+    nama: "Adli",
+    kelas: "X ICT",
+    nilai: 85
+}; 
+console.log(`
+    nama: ${siswa.nama}
+    kelas: ${siswa.kelas}
+    nilai: ${siswa.nilai} `);
+
