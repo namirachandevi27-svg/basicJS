@@ -39,7 +39,7 @@
         return jumlah % 2 === 0
  });
 //  console.log(angkaGenapBaru)
-
+  
  const angkaGanjil = arrayAngka.filter((jumlah) => {
     return jumlah % 2 !== 0
 });
